@@ -38,7 +38,9 @@ public class TemperatureConverter {
             }
 
             System.out.print("Enter the unit to convert TO: ");
-            if((input = reader.readLine()) == null) System.exit(0);
+            if((input = reader.readLine()) == null) {
+                System.exit(0);
+            }
 
             switch(input.toLowerCase().charAt(0))
             {
